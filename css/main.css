@@ -15,7 +15,7 @@
     width: 100%;
     height: 800px;
     background-color: white;
-    background-image: url("../images/audio.jpg");    
+    background-image: url("../images/audio-min.jpg");    
     background-size: cover;    
 }
 .header:before{
@@ -147,12 +147,17 @@
 
   
         position: relative;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     height: 600px;
 
+}
+
+.destacado{
+    font-weight: bold;
 }
 
 
@@ -161,7 +166,7 @@
     width:100%;
     height: 500px;
     border-radius: 20px;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 
@@ -170,17 +175,41 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+
+.information_2 .titulo_seccion_inicial{
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.information_2 .parrafo_inicial{
+    text-align: center;
 
 
 }
 
+
+.information_2 .titulo_locutor{
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+
+}
 
 .information_2 p{
 
     position: relative;
     width: 80%;
     max-width: 350px;
-    padding: 20px;
+    padding:2px;
 
 }
 
@@ -228,6 +257,57 @@
 
 
 }
+
+.imagen_referencia img.imagen_oli{
+
+    object-fit: cover;
+
+}
+
+.content_radio_1{
+
+    width: 100%;
+    height: 500px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+
+.content_radio_1 img{
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.content_radio{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content_radio h2{
+
+    margin-bottom: 30px;
+}
+
+.content_radio audio{
+    position: relative;
+    width: 80%;
+    max-width: 350px;
+
+
+}
+
+
+
 
 
 
@@ -313,6 +393,14 @@
     .content_information_2{
         grid-template-columns: 100%;
         grid-template-rows: auto;
+    }
+
+
+    .content_radio_1{
+        width: 80%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+
     }
 
 

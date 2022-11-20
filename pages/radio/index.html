@@ -48,9 +48,29 @@
 
 
 
-    <section class="section">  
-        <audio id='stream' controls style='width: 400px;'><source src="https://guri.tepuyserver.net/8136/;" type='audio/mpeg'></audio>
+    <section class="section work__img">  
+
+
+        <div class="content_radio_1">
+
+            <div class="content_microfono">
+                <img src="../../images/microfono.jpg">
+            </div>
+
+            <div  class="content_radio">
+                
+                <h2> ¡Disfruta de Elite Stereo!</h2>
+             <audio id='stream' controls ><source src="https://guri.tepuyserver.net/8136/;" type='audio/mpeg'></audio>
+            </div>
+
+
             
+            
+
+        </div>
+
+
+       
             
         
 
@@ -80,6 +100,23 @@
     <script src="https://unpkg.com/scrollreveal"></script>    
 
     <script src="../../js/main.js">
+
+    </script>
+
+
+    <script type="text/javascript">
+
+
+        setTimeout(function() {
+
+             let reproductor = document. querySelector("#stream");
+             reproductor.play();
+       
+
+
+        }, 100);
+        
+
 
     </script>
 
