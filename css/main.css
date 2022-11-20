@@ -306,6 +306,21 @@
 
 }
 
+.content_button_desarrollador a{
+    width: 80%;
+height: 80px;
+margin-top: 30px;
+cursor: pointer;
+max-width: 250px;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-decoration: none;
+border-radius: 10px;
+text-align: center;
+}
 
 
 
